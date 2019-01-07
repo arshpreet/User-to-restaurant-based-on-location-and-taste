@@ -1,11 +1,11 @@
-## Restaurant Recommendation Engine - Content Based and Personalized (Yelp Dataset)
+##  Mapping Users to Restaurants based on their location and taste preferences
 
 ### Description
 * Developed a content based recommender that recommends restaurants to the users.
 * Extracted, pre-processed, and cleaned the data related to restaurants from Yelp academic dataset.
 * Implemented mapreduce design patterns like filtering, summarization, data organization, and join patterns to perform analysis such as top restaurants by country and state, total restaurants by country and state, moving average rating of restaurants, top restaurants by positive reviews, minimum and maximum review count of each restaurants, etc.
 * Performed sentiment analysis of the reviews about the restaurants given by Yelp users.
-* Calculated the pearson correlation, jaccard correlation and cosine correlation between restaurants to recommend to users.
+* Calculated the pearson correlation, jaccarRestaurantd correlation and cosine correlation between restaurants to recommend to users.
 * Performed bining to split the data source on the basis of a preset value of a column and bloom filtering to filter the restaurants on basis of cities they are located in.
 * Deployed the project on AWS EC2 with 4 instances comprising of a namenode, a secondary namenode and two data nodes to achieve high scalability and performance.
 * Visualized the analysis in PowerBI.
